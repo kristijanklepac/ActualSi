@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Models\" />
+    <Folder Include="Data\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.4" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="libphonenumber-csharp" Version="8.10.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Address.cs" />
+    <Compile Remove="Models\Address.cs" />
+    <Compile Remove="Migrations\20181224074516_Initial.cs" />
+    <Compile Remove="Migrations\20181227073931_ContactsInitial.cs" />
+    <Compile Remove="Migrations\20181227084620_New.cs" />
+    <Compile Remove="Migrations\20181227150920_New.cs" />
+    <Compile Remove="Migrations\20181227150920_New.Designer.cs" />
+    <Compile Remove="Migrations\DataContextModelSnapshot.cs" />
+    <Compile Remove="Migrations\20181228100052_neww.cs" />
+    <Compile Remove="Migrations\20181228100052_neww.Designer.cs" />
+    <Compile Remove="Migrations\20181228100436_neww.cs" />
+    <Compile Remove="Migrations\20181229124759_New.cs" />
+  </ItemGroup>
+</Project>

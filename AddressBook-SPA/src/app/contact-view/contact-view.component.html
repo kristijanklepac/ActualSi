@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="text-center mt-5">
+        <h2>Address Book Contact ID: - {{contact.id}}</h2>
+        <div class="card mt-5">
+            <div class="card-body p-1">
+                <h6 class="card-title text-center mb-1"><i class="fa fa-user"></i>
+                  {{contact.firstName}}, {{contact.lastName}}
+                </h6>
+                <p class="card-text text-muted text-center">{{contact.address}}</p>
+                <p class="card-text text-muted text-center"><i class="fa fa-phone"></i>&nbsp;&nbsp;{{contact.telephoneNumber}}</p>
+              </div>
+            </div>
+      </div>
+  <div class="row justify-content-center mt-5">
+      
+      <div class="text-center">
+          <a class="btn btn-primary btn-lg mr-2" [routerLink]="['/contacts']" >Return to all contacts</a>
+          <button class="btn btn-danger btn-lg mr-2" (click)="deleteContact()" >Delete Contact</button>
+          <a class="btn btn-info btn-lg" [routerLink]="['/contact/edit/',contact.id]" >Edit this contact</a>
+        </div>
+
+  </div>
+</div>

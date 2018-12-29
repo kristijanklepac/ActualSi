@@ -1,0 +1,18 @@
+<div class="container mt-5">
+  <div *ngIf="!contactMode" style="text-align: center">
+    <h1>Find your contact in Address Book</h1>
+    <p class="lead">App for add or search contacts</p>
+    <div class="text-center">
+      <button class="btn btn-primary btn-lg mr-2" (click)="contactToggle()" >Add New Contact</button>
+      <a class="btn btn-info btn-lg" [routerLink]="['/contacts']" >View Contacts</a>
+    </div>
+  </div>
+
+  <div *ngIf="contactMode" class="container">
+    <div class="row justify-content-center">
+      <div class="col-6">
+        <app-contact (cancelEvent)="cancelEventMode($event)"></app-contact>
+      </div>
+    </div>
+  </div>
+</div>

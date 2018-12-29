@@ -1,0 +1,50 @@
+<form #addForm="ngForm" (ngSubmit)="addContact()">
+  <h2 class="text-center text-primary">Add new contact to Address Book</h2>
+  <hr>
+  <p>1. Please add valid phone number</p>
+  <div class="form-group">
+
+      <input type="text"
+      ng2TelInput
+      [ng2TelInputOptions]="{initialCountry: 'hr', preferredCountries: ['hr', 'si', 'it', 'us' ]}"
+      (hasError)="hasError($event)"
+      (ng2TelOutput)="getNumber($event)"
+      (intlTelInputObject)="telInputObject($event)"
+      (countryChange)="onCountryChange($event)" /><span>&nbsp;{{telBrValid}}</span>
+      </div>
+      <p>2. Please add contact data</p>
+  <div class="form-group">
+    <input type="text"
+    class="form-control"
+    required
+    name="firstName"
+    [(ngModel)]="model.firstName"
+    placeholder="First Name">
+  </div>
+
+  <div class="form-group">
+    <input type="text"
+    class="form-control"
+    required
+    name="lastName"
+    [(ngModel)]="model.lastName"
+    placeholder="Last Name">
+  </div>
+
+  <div class="form-group">
+    <input type="text"
+    class="form-control"
+    required
+    name="address"
+    [(ngModel)]="model.address"
+    placeholder="Address">
+  </div>
+
+
+
+  <div class="form-group text-center">
+    <button class="btn btn-success" type="submit">Save</button>
+    <button class="btn btn-default" type="button" (click)="cancelContact()" >Cancel</button>
+  </div>
+
+</form>

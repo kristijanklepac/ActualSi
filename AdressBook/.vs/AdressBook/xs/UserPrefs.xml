@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{039A4C6D-B598-4C4A-B468-A9E98749E3DD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AdressBook/Properties/launchSettings.json">
+    <Files>
+      <File FileName="AdressBook/Repositories/IContactRepository.cs" Line="1" Column="1" />
+      <File FileName="AdressBook/Repositories/ContactRepository.cs" Line="63" Column="14" />
+      <File FileName="AdressBook/Dtos/ContactForAddDto.cs" Line="4" Column="1" />
+      <File FileName="AdressBook/Controllers/AddressController.cs" Line="85" Column="9" />
+      <File FileName="AdressBook/Startup.cs" Line="91" Column="15" />
+      <File FileName="AdressBook/Dtos/ContactForListDto.cs" Line="1" Column="1" />
+      <File FileName="AdressBook/Dtos/ContactForUpdateDto.cs" Line="22" Column="9" />
+      <File FileName="AdressBook/Helpers/AutoMapperProfiles.cs" Line="1" Column="1" />
+      <File FileName="AdressBook/Data/ContactSeedData.json" Line="602" Column="2" />
+      <File FileName="AdressBook/Helpers/PhoneValidateAttribute.cs" Line="8" Column="1" />
+      <File FileName="AdressBook/Models/Contact.cs" Line="1" Column="1" />
+      <File FileName="AdressBook/Data/Countries.json" Line="1" Column="1" />
+      <File FileName="AdressBook/Data/DataContext.cs" Line="1" Column="1" />
+      <File FileName="AdressBook/Data/Seed.cs" Line="19" Column="13" />
+      <File FileName="AdressBook/Models/Countries.cs" Line="1" Column="1" />
+      <File FileName="AdressBook/Helpers/PagedList.cs" Line="1" Column="1" />
+      <File FileName="AdressBook/Helpers/Extensions.cs" Line="1" Column="1" />
+      <File FileName="AdressBook/Properties/launchSettings.json" Line="24" Column="26" />
+      <File FileName="AdressBook/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="AdressBook/Helpers/ContactParams.cs" Line="15" Column="53" />
+      <File FileName="AdressBook/.gitignore" Line="4" Column="5" />
+      <File FileName="AdressBook/Helpers/PaginationHeader.cs" Line="1" Column="1" />
+      <File FileName="AdressBook/appsettings.json" Line="1" Column="1" />
+      <File FileName="AdressBook/appsettings.Development.json" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AdressBook PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

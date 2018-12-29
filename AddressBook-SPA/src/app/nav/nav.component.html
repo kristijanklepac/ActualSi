@@ -1,0 +1,24 @@
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand mb-0 h1" [routerLink]="['/home']">Address Book</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul  class="navbar-nav mr-auto">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['/']">Home / Add New Contact</a>
+              </li>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" [routerLink]="['/contacts']">All Contacts</a>
+            </li>
+            
+            
+          </ul>
+    </div>
+
+    <span class="navbar-text">
+        Developed by Kristijan Klepač
+      </span>
+  </nav>
